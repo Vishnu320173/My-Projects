@@ -1,3 +1,5 @@
+//Checking with add to cart
+
 import { test, expect } from '@playwright/test';
 import { clearScreenDown } from 'readline';
 
@@ -65,3 +67,4 @@ await page.locator('//span[text()="Add to cart"]//parent::button[@class="action 
 await page.locator('//label[@for="prescription_5533_method_upload"]').click()
 
 })
+
