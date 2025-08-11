@@ -9,7 +9,7 @@ await hamburger.click()
 
 await page.locator('//ul[@class="mobile-nav mobile-nav--weight-bold"]//li//a[contains(text(),"New Arrivals")]').click()
 
-//filteration
+//filtered
 
 await page.locator('//button[@class="collection__filter__title label-typography"]//span[contains(text(),"Product Type")]').click() //clicked on product typr
 const fabric= page.locator('//div[@id="CollectionFilter--product-type"]//descendant::*[contains(text(),"Fabric")]')  //clicked on fabric
