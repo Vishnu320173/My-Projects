@@ -1,3 +1,5 @@
+//checking with add to cart
+
 import { test, expect } from '@playwright/test';
 
 test('fabricstore' , async({page})=>
