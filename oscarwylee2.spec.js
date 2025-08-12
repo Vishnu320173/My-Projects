@@ -1,4 +1,5 @@
-//Checking with add to cart
+// Project Oscar wylee
+
 
 import { test, expect } from '@playwright/test';
 import { clearScreenDown } from 'readline';
